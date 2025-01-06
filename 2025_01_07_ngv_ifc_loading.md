@@ -1,9 +1,20 @@
 # IFC models loading in CesiumJS
 
-## IFC models?
+In this meet I will present you a small wrapper library to silently convert an IFC file to gLTF, directly in the browser.
 
-The "Industry Foundation Classes (IFC)" is a data schema to describe architectural, building and construction.
-It is commonly used in "Building Information Modeling (BIM)" projects.
+## IFC?
+
+IFC stands for "Industry Foundation Classes". It is a used to store 3d models, like buildings.
+It is related to "Building Information Modeling (BIM)".
+
+## gLTF?
+
+glTF stands for "Graphics Library Transmission Format". It is used to store 3d models, like buildings.
+It was created by Cesium and standardised by Khonos.
+
+## IFC ?== glTF
+
+No, IFC is used for editing while glTF was designed for optimized transmission and rendering.
 
 ## geoblocks/ifc-gltf (frontend)
 
